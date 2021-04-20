@@ -26,12 +26,12 @@
 #         break
 #     x +=1
 
-
-user_prompt = True;
-
-while user_prompt:
-    age=input("what is your age?")
-    if age.isdigit():
-        user_prompt = False
-    else:
-        print("please provide your answer as a digit")
+# #
+# user_prompt = True;
+#
+# while user_prompt:
+#     age=input("what is your age?")
+#     if age.isdigit():
+#         user_prompt = False
+#     else:
+#         print("please provide your answer as a digit")
