@@ -9,11 +9,12 @@ import random
 def hangman_game():
     name = input("what is your name?")
     print(f"Hello {name} are you ready to play hangman!")
-    # Words are generated randomly from the word_list
     words = word_list
+    # Words are generated randomly from the word_list
     word = random.choice(words)
     print("Guess the characters")
     guesses = " "
+    # Number of attempts defined for the user
     attempt = 5
     while attempt > 0:
         failed = 0
@@ -39,6 +40,7 @@ def hangman_game():
                 if play_again == "y" or play_again == "yes" or play_again == "yeah":
                     hangman_game()
                 else:
+                    print("Have a good day!")
                     break
 
 
